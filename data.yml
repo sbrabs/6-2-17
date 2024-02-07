@@ -1,12 +1,17 @@
-defaultStorageMapping: SAUCE
+defaultStorageMapping: WORK
 installedPackages: {}
 jobs: {}
 locations:
-  SAUCE:
+  SAMPLE:
     mappingDefinitions:
       "4":
-        database: ""
-        schema: ""
+        database: COALESCE_SAMPLE_DATABASE
+        schema: TPCH_SF001
+  WORK:
+    mappingDefinitions:
+      "4":
+        database: SCOTT_DB
+        schema: BIG1
 macros: {}
 packages: {}
 projects: {}
